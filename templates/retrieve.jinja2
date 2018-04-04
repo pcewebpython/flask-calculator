@@ -1,0 +1,10 @@
+{% extends 'base.jinja2' %}
+
+{% block subtitle %} Retrieve a Total {% endblock subtitle %}
+
+{% block content %}
+<form method="GET">
+	<label for="code">Code: </label><input type="text" id="code" name="code">
+	<input type="submit" value="Retrieve It!">
+</form>
+{% endblock content %}
